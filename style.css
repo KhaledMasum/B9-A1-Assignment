@@ -121,6 +121,11 @@ p span {
 
 .item {
     width: 32%;
+    transition: 1s;
+}
+
+.item:hover {
+    transform: scale(105%);
 }
 
 .portfolio-image {
